@@ -102,11 +102,6 @@ A comprehensive **Railway Reservation System** which is a dymanic fare System de
 
 ---
 
-## 🧠 Ticket Generation Logic (C++)
-
-Ticket number = First character of source + destination + date in `DDMMYY` + class type  
-
----
 
 ## 📌 Future Enhancements
 
@@ -120,10 +115,13 @@ Ticket number = First character of source + destination + date in `DDMMYY` + cla
 
 ## 📷 Screenshots
 
-> Add screenshots here of the GUI and console interface for better visual understanding.
+>
 ![1](https://github.com/user-attachments/assets/19db89b8-3280-4380-8fa7-dd27c75c83bb)
+> 
 ![2](https://github.com/user-attachments/assets/d67f161f-4fbd-46f4-8ca4-b46dac12a815)
+>
 ![3](https://github.com/user-attachments/assets/b04cf3cb-fffa-4449-b3ec-f92f4b07b5ff)
+>
 ![4](https://github.com/user-attachments/assets/f3dd0ac2-2eaa-46be-ba8d-1f19f7b5f69a)
 
 ---
