@@ -1,7 +1,7 @@
 
 # 🚆 Railway Reservation System
 
-A comprehensive **Railway Reservation System** developed in **C++ (Console)** and **Python (Tkinter GUI)** that enables users and admins to manage train ticket bookings, station listings, and reservations. Ideal for academic projects or as a prototype for larger transportation systems.
+A comprehensive **Railway Reservation System** which is a dymanic fare System developed in **C++ (Console)** and **Python (Tkinter GUI)** that enables users and admins to manage train ticket bookings, station listings, and reservations. Ideal for academic projects or as a prototype for larger transportation systems.
 
 ---
 
@@ -26,11 +26,10 @@ A comprehensive **Railway Reservation System** developed in **C++ (Console)** an
 - **Admin Features:**
   - Add/delete/view railway stations
   - View all reservations
-  - Set or update base fare
 - **User Features:**
   - Book a train ticket
-  - Cancel an existing reservation
-  - Generate a ticket number automatically
+  - Cancel an existing reservation using CNIC/AADHAR
+  - View your Ticket
 - **Data Persistence:** Uses `fstream` to store user credentials, stations, and bookings in binary/text files
 
 ### Python GUI Application
@@ -54,7 +53,7 @@ A comprehensive **Railway Reservation System** developed in **C++ (Console)** an
 - Python 3.6+
 - Install dependencies:
   ```bash
-  pip install tk tkcalendar
+  pip install tkcalendar
   ```
 
 ---
@@ -99,14 +98,13 @@ A comprehensive **Railway Reservation System** developed in **C++ (Console)** an
 | Admin  | admin    | admin123  |
 | User   | user     | user123   |
 
-> **Note:** C++ credentials are stored in a binary file, while Python GUI uses hardcoded values (you can enhance this as needed).
+> **Note:** C++ credentials are stored in a binary file, while Python GUI uses hardcoded values.
 
 ---
 
 ## 🧠 Ticket Generation Logic (C++)
 
 Ticket number = First character of source + destination + date in `DDMMYY` + class type  
-Example: `DLKT050825E` (from Delhi to Kolkata on 5th Aug 2025 in Economy)
 
 ---
 
@@ -123,18 +121,16 @@ Example: `DLKT050825E` (from Delhi to Kolkata on 5th Aug 2025 in Economy)
 ## 📷 Screenshots
 
 > Add screenshots here of the GUI and console interface for better visual understanding.
-
----
-
-## 📜 License
-
-This project is for educational purposes and is licensed under the MIT License.
+![1](https://github.com/user-attachments/assets/19db89b8-3280-4380-8fa7-dd27c75c83bb)
+![2](https://github.com/user-attachments/assets/d67f161f-4fbd-46f4-8ca4-b46dac12a815)
+![3](https://github.com/user-attachments/assets/b04cf3cb-fffa-4449-b3ec-f92f4b07b5ff)
+![4](https://github.com/user-attachments/assets/f3dd0ac2-2eaa-46be-ba8d-1f19f7b5f69a)
 
 ---
 
 ## 👨‍💻 Authors
 
-- **C++ System Developer**: *Your Name Here*
-- **Python GUI Developer**: *Your Name Here*
+- **C++ System Developer**: *Keith Kaur Malli*
+- **Python GUI Developer**: *Keith Kaur Malli*
 
-> Replace names with actual contributors if collaborating.
+
