@@ -126,7 +126,7 @@ A comprehensive **Railway Reservation System** which is a dymanic fare System de
 
 ---
 
-## 👨‍💻 Authors
+## 👨‍💻 Author
 
 - **C++ System Developer**: *Keith Kaur Malli*
 - **Python GUI Developer**: *Keith Kaur Malli*
